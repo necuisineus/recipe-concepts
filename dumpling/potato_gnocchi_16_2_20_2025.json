@@ -1,0 +1,104 @@
+{
+	"@context": "https://schema.org/",
+	"@type": "Recipe",
+	"name": "potato gnocchi",
+	
+	"date": {
+		"dateCreated": "February 20, 2025",
+		"deployDate": ["February 20, 2025"]
+	},
+	"author": {
+		"@type": "Organization",
+		"name": "Northeast Cuisine",
+		"url": "northeastcuisineus.substack.com"
+	},
+	"verification": {
+		"name": "Northeast Cuisine",
+		"verification": "verified",
+		"method": "workshop",
+		"verificationDate": "February 20, 2025"
+	},
+	"recipeConcept": "dumpling",
+	"nameEquals": [""],
+	"recipeCuisine": "Northeast United States",
+	"recipeCategory": "pasta",    
+	
+	"prepTime": "PT75M",
+	"cookTime": "PT10M",
+	"totalTime": "PT85M",
+	
+	"recipeYield": "16",
+	
+	"recipeIngredient": [
+		{"quantity":"4", 
+		 "measurement":"kg", 
+		 "ingredient":"potatoes-yukon gold",
+		 "ingredientType": "prime_ingredient"},
+		{"quantity":"500", 
+		 "measurement":"g", 
+		 "ingredient":"flour-rice",
+		 "ingredientType": "prime_ingredient"},
+        {"quantity":"300",
+		 "measurement":"g", 
+		 "ingredient":"potato-starch",
+		 "ingredientType": "prime_recipe"},
+        {"quantity":"1",
+		 "measurement":"tsp", 
+		 "ingredient":"xantham gum",
+		 "ingredientType": "prime_ingredient"},
+        {"quantity":"8", 
+		 "measurement":"each", 
+		 "ingredient":"egg",
+		 "ingredientType": "prime_ingredient"},
+        {"quantity":"",
+		 "measurement":"", 
+		 "ingredient":"salt",
+		 "ingredientType": "prime_ingredient"}
+	],
+
+	"recipeInstructions": [
+		{
+			"@type": "HowToStep",
+			"name": "Bake Potatoes",
+			"text": "Preheat your oven to 400°F, cook for 1 hour and 15 minutes."
+		},
+		{
+			"@type": "HowToStep",
+			"name": "Cut open potatoes",
+			"text": "Cut potatoes length-wise and let cool, this also removes more moisture from the potatoes. Add pot with water to stovetop and bring to boil."
+		},
+		{
+			"@type": "HowToStep",
+			"name": "Mash potatoes",
+			"text": "Use potato ricer or masher to break up the potatoes, ideally you want them as smooth as possible for good texture. Add to large bowl."
+		},
+		{
+			"@type": "HowToStep",
+			"name": "Measure flour",
+			"text": "Measure the flour on a digital scale for accuracy. Add in potato starch and xantham gum and mix together. Xantham gum will help the dough stick together."
+		},
+		{
+			"@type": "HowToStep",
+			"name": "Make Gnocchi",
+			"text": "Mix together the flour into the mashed potato. Make sure everything is evenly mixed and split into 2 large round pieces and then again into 4 smaller pieces. You should have 8 dough balls. Start to take pieces off the dough and roll out into long cylinders, add some flour to the table to help with rolling. Cut the cylinders at every inch and roll on the back of a fork or with a gnocchi block."
+		},
+		{
+			"@type": "HowToStep",
+			"name": "Cook gnocchi",
+			"text": "Take the gnocchi to the boiling water and drop in a couple at a time. Be careful not to crowd the pot. Once the gnocchi float to the top they are done! Add to sauce or saute in pan to brown and add crispyness or texture."
+		}
+		],
+	"nutrition": {"": ""},
+	"description": "",
+	"suitableForDiet": ["https://schema.org/GlutenFreeDiet"],
+
+	"estimatedCost": "",
+
+	"tool": ["11in pot", "mixing bowl", "large bowl", "potato masher", "digital scale", "gnocchi board"],
+	"keywords": ["pasta", "gnocchi"],
+	
+	"maintainer": "Northeast_Cuisine",
+	
+	"contentLocation": "PA_Philadelphia",
+	"spatialCoverage": "US_Northeast"
+}
